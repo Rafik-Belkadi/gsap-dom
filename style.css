@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transform: scale(1);
+    opacity: 1;
+    margin: 20px 0;
+    position: relative
+}
+
+.circle-wrapper {
+    height: 100%;    
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#circle1 {
+    background: yellow
+}
+
+#circle2 {
+    background: red
+}
+
+#circle3 {
+    background: blue
+}
